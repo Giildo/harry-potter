@@ -12,7 +12,7 @@
          alt="Image représentant le blason de Poudlard avec les symboles des 4 maisons"
     />
 
-    <v-btn x-large color="#2bbbad">Commencer</v-btn>
+    <v-btn x-large color="#2bbbad" :to="{ name: 'Questionnaire' }">Commencer</v-btn>
 
     <p>~ Ce quiz a été fait par un fan et n'est donc nullement affilié à WIZARDING WORLD ou à UNIVERSAL STUDIO, merci de
       votre compréhension !</p>
@@ -63,7 +63,7 @@ section {
     }
   }
 
-  button {
+  a {
     margin: 7.5px;
   }
 }

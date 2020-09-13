@@ -1,0 +1,25 @@
+[
+  {
+    "id": 1,
+    "text": "Comment détesteriez-vous que l'on vous appelle ?",
+    "answerType": "List",
+    "answers": [
+      {
+        "pictureUrl": "banal.png",
+        "text": "Le banal"
+      },
+      {
+        "pictureUrl": "ignorant.png",
+        "text": "L'ignorant"
+      },
+      {
+        "pictureUrl": "lache.png",
+        "text": "Le lâche"
+      },
+      {
+        "pictureUrl": "egoiste.png",
+        "text": "L'égoïste"
+      }
+    ]
+  }
+]
