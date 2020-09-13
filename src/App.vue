@@ -1,28 +1,22 @@
 <template>
-  <div id="app">
+  <v-app>
+    <nav-bar/>
     <router-view/>
-  </div>
+  </v-app>
 </template>
 
 <style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
+html {
+  font-size: 20px;
 
-#nav {
-  padding: 30px;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
+  #app {
+    font-family: Roboto, sans-serif;
   }
 }
 </style>
+<script>
+import NavBar from '@/components/template/NavBar'
+export default {
+  components: { NavBar },
+}
+</script>
