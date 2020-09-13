@@ -17,6 +17,8 @@ export default {
 @import "src/assets/style/style";
 
 header {
+  height: 128px;
+
   a {
     display: flex;
     justify-content: center;

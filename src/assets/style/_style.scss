@@ -1,3 +1,37 @@
-// COLOR
+// Color
 
 $navbar: #212529;
+$pageTitle: #2bbbad;
+$pageBackground: #a6a6a6;
+$textContainerBackground: #212121;
+
+// Breakpoints
+
+$xl: 1600px;
+$l: 1200px;
+$m: 992px;
+$s: 768px;
+
+// Container mixin
+@mixin container {
+  padding: 0;
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+
+  @media all and (min-width: $s) {
+    width: $s;
+  }
+
+  @media all and (min-width: $m) {
+    width: $m;
+  }
+
+  @media all and (min-width: $l) {
+    width: $l;
+  }
+
+  @media all and (min-width: $xl) {
+    width: $xl;
+  }
+}

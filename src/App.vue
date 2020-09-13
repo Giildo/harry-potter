@@ -1,7 +1,13 @@
 <template>
   <v-app>
     <nav-bar/>
-    <router-view/>
+    <template-page>
+      <template v-slot:title-page>
+        Faîtes votre entrée à l'école des sorciers !
+      </template>
+
+      <router-view/>
+    </template-page>
   </v-app>
 </template>
 
@@ -16,7 +22,9 @@ html {
 </style>
 <script>
 import NavBar from '@/components/template/NavBar'
+import TemplatePage from '@/components/template/TemplatePage'
+
 export default {
-  components: { NavBar },
+  components: { TemplatePage, NavBar },
 }
 </script>
