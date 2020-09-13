@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section id="template__section">
     <div class="container">
       <v-alert class="title__page" elevation="12">
         <slot name="title-page"/>
@@ -25,7 +25,7 @@ export default {
 <style lang="scss" scoped>
 @import "src/assets/style/style";
 
-section {
+#template__section {
   background-color: $pageBackground;
   padding-top: 10px;
   min-height: calc(100vh - 128px);
